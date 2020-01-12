@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_application"
+    app:startDestination="@id/landingFragmentOne">
+    <fragment
+        android:id="@+id/landingFragmentOne"
+        android:name="com.kyaw.healthyfoodie.ui.landing_pages.LandingFragmentOne"
+        android:label="fragment_landing_fragment_one"
+        tools:layout="@layout/fragment_landing_fragment_one" />
+</navigation>
